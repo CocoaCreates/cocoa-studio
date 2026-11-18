@@ -1,0 +1,7 @@
+{
+  "name": "cocoa-studio",
+  "version": "0.1.0",
+  "description": "Cocoa Creative's studio toolkit: client brand files, proposals, game day spec work for arena boards, marketing graphics and preview-site publishing.",
+  "author": { "name": "Cocoa Creative" },
+  "keywords": ["sports", "video board", "arena graphics", "proposals", "spec work", "motion graphics"]
+}

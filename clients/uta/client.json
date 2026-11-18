@@ -1,0 +1,67 @@
+{
+  "slug": "uta",
+  "name": "UT Arlington Athletics",
+  "short": "UTA",
+  "nickname": "Mavericks",
+  "short_nickname": "Mavs",
+  "level": "NCAA D1",
+  "conference": "WAC (verify current affiliation)",
+  "hashtag": "#MavsUp",
+  "website": "https://utamavs.com",
+  "stage": "met",
+  "brand": {
+    "primary": { "hex": "#0064B1", "name": "UTA Blue" },
+    "accent": { "hex": "#F58025", "name": "UTA Orange" },
+    "deep": { "hex": "#0A1E3C", "name": "Navy" },
+    "light": { "hex": "#F4F6F9" },
+    "on_primary": "#FFFFFF",
+    "on_accent": "#0A1E3C",
+    "display_font": "Oswald",
+    "body_font": "Public Sans",
+    "font_note": "Official athletics typeface not confirmed; Oswald + Public Sans used as close matches",
+    "confidence": "estimated"
+  },
+  "venues": [
+    { "name": "College Park Center", "sports": ["men's basketball", "women's basketball", "volleyball"] }
+  ],
+  "boards": [
+    { "venue": "College Park Center", "surface": "center-hung", "px": null, "aspect": "16:9", "pitch_mm": 3.9, "note": "Four-sided Daktronics center-hung; bowl displays are 3.9 mm", "confidence": "estimated" },
+    { "venue": "College Park Center", "surface": "end-hung", "px": null, "aspect": null, "pitch_mm": null, "note": "Daktronics, 11 ft x 19 ft", "confidence": "sourced" },
+    { "venue": "College Park Center", "surface": "fascia/ribbon", "px": null, "aspect": "24:1", "pitch_mm": 3.9, "note": "Fascia displays in bowl", "confidence": "estimated" },
+    { "venue": "College Park Center", "surface": "scorers-table", "px": null, "aspect": "8:1", "pitch_mm": 3.9, "note": "Score and broadcast table LED displays", "confidence": "estimated" }
+  ],
+  "partners": {
+    "rights_holder": "Maverick Sports Properties",
+    "known_sponsors": []
+  },
+  "contacts": [
+    { "name": "Quintin Payton", "title": "Sr. Associate AD for External Affairs / Chief Revenue Officer", "role": "decision maker" },
+    { "name": "Tyler Iverson", "title": "UTA Athletics", "role": "cc on outreach" },
+    { "name": "Josh Feldman", "title": "Maverick Sports Properties", "role": "rights holder contact" }
+  ],
+  "meetings": [
+    { "date": "2026-11-11", "with": "Quintin Payton", "summary": "Intro call on board content and partner activations. Details to be logged by Terrence.", "interests": [] }
+  ],
+  "selected": {
+    "package": null,
+    "addons": [],
+    "spec_elements": ["fullscreen", "ribbon", "scorers-table", "social", "email", "story"],
+    "sponsored_variants": true
+  },
+  "deliverables": [
+    { "type": "proposal-deck", "url": "https://claude.ai/artifact/FGntK5xTF2AZQ7WvTucTes", "date": "2026-11-11" },
+    { "type": "proposal-site", "url": "https://preview.cocoacreates.com/uta-game-day/", "date": "2026-11-11" },
+    { "type": "spec", "url": "https://preview.cocoacreates.com/uta-game-day/spec/", "date": "2026-11-18" }
+  ],
+  "open_questions": [
+    "Exact pixel dimensions of the center-hung, fascia and scorer's table displays",
+    "Board control software (Daktronics Show Control, Click Effects, Ross XPression?)",
+    "Current partner list and which inventory Maverick Sports Properties has unsold",
+    "Which package or elements Quintin leaned toward on the Nov 11 call",
+    "Official athletics typeface and logo files"
+  ],
+  "sources": [
+    { "fact": "End-hung 11x19 ft Daktronics; center-hung four-sided Daktronics", "url": "https://utacollegepark.com/events/corporate-and-private-events/production-information.php" },
+    { "fact": "Bowl displays 3.9 mm, incl. center-hung, fascia, tables", "url": "https://blog.iavm.org/college-park-center-unveils-state-of-the-art-video-board-upgrades/" }
+  ]
+}
