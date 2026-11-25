@@ -10,12 +10,29 @@
   "website": "https://dsuhornets.com",
   "stage": "lead",
   "brand": {
-    "primary": { "hex": "#009DDC", "name": "Blue (PMS 299 C)" },
-    "accent": { "hex": "#EE3124", "name": "Red (PMS 485 C)" },
-    "light_blue": { "hex": "#72CDF4", "name": "Columbia Blue (PMS 297 C)" },
-    "deep": { "hex": "#0E1A22", "name": "Near-black (from PMS Process Black, #231F20)" },
-    "web_primary": { "hex": "#00699A", "name": "Deepened blue for text and buttons on light backgrounds" },
-    "light": { "hex": "#F3F7FA" },
+    "primary": {
+      "hex": "#009DDC",
+      "name": "Blue (PMS 299 C)"
+    },
+    "accent": {
+      "hex": "#EE3124",
+      "name": "Red (PMS 485 C)"
+    },
+    "light_blue": {
+      "hex": "#72CDF4",
+      "name": "Columbia Blue (PMS 297 C)"
+    },
+    "deep": {
+      "hex": "#0E1A22",
+      "name": "Near-black (from PMS Process Black, #231F20)"
+    },
+    "web_primary": {
+      "hex": "#00699A",
+      "name": "Deepened blue for text and buttons on light backgrounds"
+    },
+    "light": {
+      "hex": "#F3F7FA"
+    },
     "on_primary": "#0E1A22",
     "on_accent": "#FFFFFF",
     "display_font": "Barlow Condensed",
@@ -24,12 +41,39 @@
     "confidence": "sourced"
   },
   "venues": [
-    { "name": "Memorial Hall", "sports": ["men's basketball", "women's basketball"] },
-    { "name": "Alumni Stadium", "sports": ["football"] }
+    {
+      "name": "Memorial Hall",
+      "sports": [
+        "men's basketball",
+        "women's basketball"
+      ]
+    },
+    {
+      "name": "Alumni Stadium",
+      "sports": [
+        "football"
+      ]
+    }
   ],
   "boards": [
-    { "venue": "Alumni Stadium", "surface": "main video board", "px": "480x360", "aspect": "4:3", "pitch_mm": null, "note": "18 x 24 ft multimedia board unveiled 2015; may have been replaced since", "confidence": "estimated" },
-    { "venue": "Memorial Hall", "surface": "unknown", "px": null, "aspect": null, "pitch_mm": null, "note": "No published board specs found", "confidence": "estimated" }
+    {
+      "venue": "Alumni Stadium",
+      "surface": "main video board",
+      "px": "480x360",
+      "aspect": "4:3",
+      "pitch_mm": null,
+      "note": "18 x 24 ft multimedia board unveiled 2015; may have been replaced since",
+      "confidence": "estimated"
+    },
+    {
+      "venue": "Memorial Hall",
+      "surface": "unknown",
+      "px": null,
+      "aspect": null,
+      "pitch_mm": null,
+      "note": "No published board specs found",
+      "confidence": "estimated"
+    }
   ],
   "partners": {
     "rights_holder": "PEAK Sports Management (announced 2020; confirm still current)",
@@ -44,20 +88,44 @@
     "sponsored_variants": true
   },
   "deliverables": [
-    { "type": "proposal-site", "url": "https://preview.cocoacreates.com/delaware-state-game-day/", "date": "2026-11-25" }
+    {
+      "type": "proposal-site",
+      "url": "https://preview.cocoacreates.com/delaware-state-game-day/",
+      "date": "2026-11-25"
+    },
+    {
+      "type": "graphics",
+      "url": "https://preview.cocoacreates.com/delaware-state-game-day/graphics/2026-11-25-graphics-pack/",
+      "date": "2026-11-25"
+    }
   ],
   "open_questions": [
     "Memorial Hall video board, ribbon and scorer's table specs",
     "Is PEAK Sports Management still the multimedia rights holder?",
     "Official athletics typeface and hashtag",
     "Logo files: none supplied yet, so pages use the name set in type",
-    "Graphics pack (paid): opponent, date, tip time, final score, themed-night theme and announcement message"
+    "White-Out (Dec 15) opponent and tip time; Player of the Week name, number, position and photo; confirm the Nov 25 opponent spelling (Morehouse)"
   ],
   "sources": [
-    { "fact": "Colors: red #EE3124 / PMS 485, light blue #72CDF4 / PMS 297, blue #009DDC / PMS 299, black #231F20", "url": "https://teamcolorcodes.com/delaware-state-hornets-colors/" },
-    { "fact": "Columbia blue and red; Memorial Hall (basketball), Alumni Stadium (football)", "url": "https://en.wikipedia.org/wiki/Delaware_State_Hornets" },
-    { "fact": "Alumni Stadium board 18 x 24 ft, 360 x 480", "url": "https://dsuhornets.com/news/2015/9/16/210346187.aspx" },
-    { "fact": "PEAK Sports Management oversees sponsorship and multimedia rights", "url": "https://hbcusports.com/2020/06/24/delaware-state-announces-partnership-with-peak-sports-management/" },
-    { "fact": "New Hornet athletics logo, 2023", "url": "https://desu.edu/news/2023/08/university-unveils-new-academic-athletics-logos" }
+    {
+      "fact": "Colors: red #EE3124 / PMS 485, light blue #72CDF4 / PMS 297, blue #009DDC / PMS 299, black #231F20",
+      "url": "https://teamcolorcodes.com/delaware-state-hornets-colors/"
+    },
+    {
+      "fact": "Columbia blue and red; Memorial Hall (basketball), Alumni Stadium (football)",
+      "url": "https://en.wikipedia.org/wiki/Delaware_State_Hornets"
+    },
+    {
+      "fact": "Alumni Stadium board 18 x 24 ft, 360 x 480",
+      "url": "https://dsuhornets.com/news/2015/9/16/210346187.aspx"
+    },
+    {
+      "fact": "PEAK Sports Management oversees sponsorship and multimedia rights",
+      "url": "https://hbcusports.com/2020/06/24/delaware-state-announces-partnership-with-peak-sports-management/"
+    },
+    {
+      "fact": "New Hornet athletics logo, 2023",
+      "url": "https://desu.edu/news/2023/08/university-unveils-new-academic-athletics-logos"
+    }
   ]
 }
