@@ -33,7 +33,7 @@ Follow `references/motion-tools.md`:
 - **Higgsfield:** generate branded background plates, a hype-open draft or crowd b-roll. Place stills or loops into the spec page as `<video autoplay muted loop playsinline>` with a still poster.
 - **After Effects MCP** (designer's machine): build production comps per element at the real board pixel size, then render MP4s and PNG stills. Add them to the page or to a download package.
 - **Photoshop / Adobe:** cut out player photos the client supplied, resize to every canvas, and make social variations.
-If none is connected, the HTML/CSS motion in the template is the deliverable.
+The spec page itself is HTML. The board pieces on it must come from the tools the request names; if a named tool is not connected, ask on the request rather than shipping the HTML/CSS motion as the piece.
 
 ## 4. Record and hand off
 - Add `{ "type": "spec", "url": ..., "date": ... }` to `deliverables`, and set `stage` to `spec-sent` only after Terrence confirms he sent it.

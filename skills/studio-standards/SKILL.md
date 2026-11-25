@@ -45,4 +45,16 @@ Cocoa Creative (CEO and Creative Director: Terrence Thames) builds game day vide
 - Higgsfield for AI motion and video backgrounds, b-roll style plates and hype-open drafts.
 - Adobe (Photoshop, Express) for image cleanup, cutouts, resizing and social variations.
 - After Effects MCP, on a designer's own machine with After Effects installed, for production motion comps and renders.
-- Use whichever of these are connected. When one is missing, build the HTML/CSS version and say which tool would upgrade it.
+- **Design requests use only the tools named in the request.** Each request in Studio HQ carries a tool per piece (`assetPlan[].tool`: Photoshop, Illustrator, Higgsfield, After Effects, or Higgsfield + After Effects) and a style template. Build every piece in exactly that tool and in that style.
+- **Never substitute.** Do not build a requested design as hand-coded HTML/CSS rendered to an image, and do not use Claude's own Design artifact type or any other Claude-native design tool in place of the requested one. HTML/CSS is only for web pages (proposal sites, spec pages, contact sheets) or when the request itself picks it.
+- **When a requested tool can't be reached** (a connector refuses, After Effects needs the designer's Mac, a file can't be fetched), stop that piece and ask instead of substituting: set the request's `status` to `needs-answer` and write the question (see "Questions on requests" below).
+- "Claude decides per piece" in a request means choose among the connected tools listed above, never HTML/CSS.
+
+## Questions on requests (Studio HQ)
+
+Questions must be answerable on the front end, not only in Claude's notes.
+
+- To ask: set `status` to `needs-answer` and write `questions` as a list, each `{ "q": "one clear question", "options": ["optional", "quick picks"] }`. Keep `response` as a one-line summary.
+- Studio HQ shows these in a "Questions for you" panel and on the request, with an answer box.
+- When someone answers, HQ writes `answer` (latest text), appends to `answers` ([{at, text, items:[{q,a}]}]) and sets `status` back to `new`. Read `answer` before continuing, then clear `questions`.
+- Always set `resultUrl` to a full https:// link when a request is done (a preview page, artifact or file link), so "Open result" works. Use full https:// URLs in `response` text.

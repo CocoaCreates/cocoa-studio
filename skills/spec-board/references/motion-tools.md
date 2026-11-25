@@ -23,5 +23,5 @@ Use whichever of these is connected in the session.
 - Use it to remove backgrounds from player photos the client supplied, crop and resize to each social canvas, and make social variations.
 - Never alter official logos.
 
-## No tools connected
-The HTML/CSS spec page is the complete deliverable. Say which tool would upgrade it.
+## When a requested tool is not connected
+Do not substitute an HTML/CSS version. Set the request to `needs-answer` with a question saying which tool is missing and what would unblock it.
